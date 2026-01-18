@@ -69,6 +69,15 @@ This repo includes a GitHub Actions workflow that builds a debug APK for you.
 3. Download the `og-deliveries-debug-apk` artifact.
 4. Transfer `app-debug.apk` to your Android phone and install it.
 
+## Getting an APK from GitHub Releases
+
+Push a tag named `android-vX.Y.Z` to trigger a release build that attaches the APK
+to a GitHub Release (for example, `android-v0.1.0`).
+
+1. Create and push a tag: `git tag android-v0.1.0 && git push origin android-v0.1.0`
+2. Open **Releases** on GitHub.
+3. Download `app-debug.apk` from the latest release and install it on your phone.
+
 ## Backend admin console (pricing + credits)
 
 The `backend/` folder includes a minimal API that lets you:
