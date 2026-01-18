@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.OGDeliveries" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/og_blue</item>
+        <item name="colorPrimaryVariant">@color/og_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.OGDeliveries.Title" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/og_blue</item>
+    </style>
+
+    <style name="TextAppearance.OGDeliveries.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/og_gray</item>
+    </style>
+
+    <style name="TextAppearance.OGDeliveries.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/og_gray</item>
+    </style>
+</resources>
