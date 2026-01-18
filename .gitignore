@@ -2,3 +2,5 @@
 **/build/
 *.iml
 .idea/
+backend/node_modules/
+backend/data/

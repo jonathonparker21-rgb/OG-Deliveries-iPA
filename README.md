@@ -68,3 +68,13 @@ This repo includes a GitHub Actions workflow that builds a debug APK for you.
 2. Open the **Actions** tab → **Build Android APK**.
 3. Download the `og-deliveries-debug-apk` artifact.
 4. Transfer `app-debug.apk` to your Android phone and install it.
+
+## Backend admin console (pricing + credits)
+
+The `backend/` folder includes a minimal API that lets you:
+
+- Log in as an admin.
+- Update pricing inputs used by the app.
+- Add or subtract credits on customer accounts.
+
+Start with `backend/README.md` for setup steps and API endpoints.
