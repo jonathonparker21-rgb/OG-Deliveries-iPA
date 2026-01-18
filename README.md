@@ -59,3 +59,12 @@ This repository will hold the mobile apps for the OG Deliveries business, starti
 - Android-first release with feature parity in mind.
 - Keep shared UI/business logic to ease iOS port.
 - Design an API that supports both apps.
+
+## Getting an APK without local setup
+
+This repo includes a GitHub Actions workflow that builds a debug APK for you.
+
+1. Push changes to GitHub.
+2. Open the **Actions** tab → **Build Android APK**.
+3. Download the `og-deliveries-debug-apk` artifact.
+4. Transfer `app-debug.apk` to your Android phone and install it.
